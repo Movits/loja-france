@@ -1,5 +1,5 @@
 /* =========================================================
-   BOUTIQUE FRANCE — Conteúdo editável
+   BOUTIQUE FRANCE - Conteúdo editável
    ---------------------------------------------------------
    👉 ESTE É O ARQUIVO QUE VOCÊ EDITA para mudar textos, fotos,
       contatos e avaliações. Não precisa mexer no resto.
@@ -30,7 +30,7 @@ window.FRANCE = {
     { sub: "Mont-Blanc · França",nome: "Chamonix",                desc: "Tricôs e malhas para o friozinho de Brasília.",   img: "tricot-feminino.png" },
     { sub: "Náutic Club",        nome: "Sportswear",              desc: "Casual e esportivo com pegada francesa.",          img: "look-bomber.jpg" },
     { sub: "Denim premium",      nome: "Jeans France",            desc: "Modelagens que vestem bem de verdade.",            img: "jeans-pierre.png" },
-    { sub: "Paris · ícone",      nome: "Pierre Cardin",           desc: "Clássicos atemporais. Revendedor autorizado.",     img: "polo-creme.png" }
+    { sub: "Paris · ícone",      nome: "Pierre Cardin",           desc: "Clássicos que não saem de moda. Somos revendedor autorizado.", img: "polo-creme.png" }
   ],
 
   /* ---- Lookbook / galeria (size opcional: "wide") ---- */
@@ -45,7 +45,7 @@ window.FRANCE = {
     { img: "jeans-pierre.png",      cap: "Jeans France" },
     { img: "detalhe-polos.jpg",     cap: "A assinatura France" },
     { img: "jeans-rolos.jpg",       cap: "Denim premium" },
-    { img: "fachada.png",           cap: "Nossa loja — 107 Sul, à noite" }
+    { img: "fachada.png",           cap: "Nossa loja na 107 Sul, à noite" }
   ],
 
   /* ---- Avaliações reais (Google) ---- */
@@ -54,7 +54,7 @@ window.FRANCE = {
     { nome: "Leandro Galvão",  role: "Local Guide · Google",  texto: "Roupas masculinas de qualidade e bom preço. O atendimento também é muito simpático!" },
     { nome: "Jaqueline Castro",role: "Local Guide · Google",  texto: "Roupas de excelente qualidade, preço justo e atendimento nota 10." },
     { nome: "Lucilene Andrade",role: "Google · 2 anos atrás", texto: "Entrei pra experimentar um vestido da vitrine, fui muito bem atendida, acabei levando dois vestidos." },
-    { nome: "Simone Leão",     role: "Google · 1 ano atrás",  texto: "Atendimento excelente, Sra. Silvana e Sr. Carlos, parabéns — sem contar a qualidade!" },
+    { nome: "Simone Leão",     role: "Google · 1 ano atrás",  texto: "Atendimento excelente, Sra. Silvana e Sr. Carlos, parabéns, sem contar a qualidade!" },
     { nome: "Daniela Damasceno",role: "Google · 2 anos atrás",texto: "Roupas que vestem super bem. Atendimento fantástico." }
   ]
 };

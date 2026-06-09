@@ -1,5 +1,5 @@
 /* =========================================================
-   BOUTIQUE FRANCE — estilo da landing page
+   BOUTIQUE FRANCE - estilo da landing page
    Paleta e tipografia centralizadas em :root (fácil de ajustar)
    ========================================================= */
 :root {
@@ -198,8 +198,15 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.1;
 .emblem { width: min(78%, 360px); height: auto; }
 .emblem__ring { transform-box: fill-box; transform-origin: center; animation: spin 60s linear infinite; }
 .emblem__arc { font-family: var(--font-sans); font-size: 17px; font-weight: 600; letter-spacing: 7.5px; }
-.emblem__f { font-family: var(--font-serif); font-size: 118px; font-weight: 800; fill: var(--blue); }
+.emblem__f { fill: var(--blue); }
 @keyframes spin { to { transform: rotate(360deg); } }
+
+/* Bandeira da França (inline, renderiza igual em qualquer sistema) */
+.flag-fr {
+  display: inline-block; width: 21px; height: 14px; border-radius: 2px;
+  vertical-align: -2px; margin-left: 3px;
+  box-shadow: 0 0 0 1px rgba(13, 19, 48, 0.15);
+}
 
 .hero__scroll {
   position: absolute; left: 50%; bottom: 26px; z-index: 2; transform: translateX(-50%);

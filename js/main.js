@@ -1,5 +1,5 @@
 /* =========================================================
-   BOUTIQUE FRANCE — Interações e renderização
+   BOUTIQUE FRANCE - Interações e renderização
    Lê o conteúdo de config.js (window.FRANCE) e monta as seções.
    ========================================================= */
 (function () {
