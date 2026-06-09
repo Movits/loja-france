@@ -14,7 +14,7 @@ window.FRANCE = {
     telefoneDisplay: "(61) 9 8611-1616",
     instagram: "https://www.instagram.com/france.spw/",
     instagramUser: "@france.spw",
-    maps: "https://maps.app.goo.gl/3hfEykPS16PwHxSY9"
+    maps: "https://maps.app.goo.gl/7fdJT6zxN2mkbYa66"
   },
 
   /* ---- Faixa rolante (nomes que passam animados) ---- */

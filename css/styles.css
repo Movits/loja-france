@@ -198,7 +198,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.1;
 .emblem { width: min(78%, 360px); height: auto; }
 .emblem__ring { transform-box: fill-box; transform-origin: center; animation: spin 60s linear infinite; }
 .emblem__arc { font-family: var(--font-sans); font-size: 17px; font-weight: 600; letter-spacing: 7.5px; }
-.emblem__f { font-family: var(--font-serif); font-size: 130px; font-weight: 800; fill: var(--blue); }
+.emblem__f { font-family: var(--font-serif); font-size: 118px; font-weight: 800; fill: var(--blue); }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 .hero__scroll {
