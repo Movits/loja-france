@@ -1,12 +1,12 @@
-# Boutique France — site vitrine
+# Boutique France · site vitrine
 
-Landing page (vitrine) da **Boutique France** — Asa Sul, Brasília.
+Landing page (vitrine) da **Boutique France**, na Asa Sul, Brasília.
 Site estático, sem build, publicado no **GitHub Pages**.
 
 🔗 **No ar em:** https://movits.github.io/loja-france/
 
 > Objetivo: apresentar a loja de forma bonita e levar as pessoas até a loja física,
-> WhatsApp, Instagram e Google Maps. (Não vende online — por enquanto.)
+> WhatsApp, Instagram e Google Maps. (Não vende online por enquanto.)
 
 ---
 
@@ -24,7 +24,7 @@ Abra, edite o texto entre aspas e salve. As principais partes:
 | Avaliações dos clientes | `avaliacoes` |
 
 Textos maiores (slogan, "A Boutique", endereço e horário) ficam no
-[`index.html`](index.html) — procure a seção correspondente; há comentários guiando.
+[`index.html`](index.html). Procure a seção correspondente; há comentários guiando.
 
 ### Trocar uma foto
 1. Salve a imagem em `assets/img/` (de preferência `.jpg`, boa resolução).

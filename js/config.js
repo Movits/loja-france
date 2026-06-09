@@ -30,7 +30,7 @@ window.FRANCE = {
     { sub: "Mont-Blanc · França",nome: "Chamonix",                desc: "Tricôs e malhas para o friozinho de Brasília.",   img: "tricot-feminino.png" },
     { sub: "Náutic Club",        nome: "Sportswear",              desc: "Casual e esportivo com pegada francesa.",          img: "look-bomber.jpg" },
     { sub: "Denim premium",      nome: "Jeans France",            desc: "Modelagens que vestem bem de verdade.",            img: "jeans-pierre.png" },
-    { sub: "Paris · ícone",      nome: "Pierre Cardin",           desc: "Clássicos que não saem de moda. Somos revendedor autorizado.", img: "polo-creme.png" }
+    { sub: "Paris · ícone",      nome: "Pierre Cardin",           desc: "Clássicos atemporais. Revendedor autorizado.",     img: "polo-creme.png" }
   ],
 
   /* ---- Lookbook / galeria (size opcional: "wide") ---- */
