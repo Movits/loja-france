@@ -236,7 +236,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.1;
 .sobre__media { position: relative; }
 .sobre__media img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); aspect-ratio: 4/4.4; object-fit: cover; }
 .sobre__tag {
-  position: absolute; left: -14px; bottom: 26px; background: #fff; color: var(--ink);
+  position: absolute; left: 20px; bottom: 20px; background: #fff; color: var(--ink);
   padding: 12px 18px; border-radius: 999px; font-weight: 600; font-size: 0.9rem;
   box-shadow: var(--shadow);
 }

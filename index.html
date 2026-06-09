@@ -116,13 +116,21 @@
           <svg viewBox="0 0 220 220" class="emblem">
             <defs>
               <path id="emblemArc" d="M110,28 a82,82 0 1,1 -0.1,0" fill="none"/>
+              <g id="flagMark">
+                <rect x="103.5" y="23" width="13" height="10" rx="1" fill="#ffffff"/>
+                <rect x="103.5" y="23" width="4.34" height="10" fill="#1f3aa6"/>
+                <rect x="112.16" y="23" width="4.34" height="10" fill="#e2342f"/>
+              </g>
             </defs>
             <g class="emblem__ring">
               <circle cx="110" cy="110" r="104" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.30"/>
               <circle cx="110" cy="110" r="78" fill="none" stroke="currentColor" stroke-width="1" opacity="0.16"/>
-              <text class="emblem__arc" fill="currentColor">
-                <textPath href="#emblemArc" startOffset="0">FRANCE&#160;·&#160;FRANCE&#160;·&#160;FRANCE&#160;·&#160;</textPath>
-              </text>
+              <text class="emblem__arc" fill="currentColor" text-anchor="middle"><textPath href="#emblemArc" startOffset="0%">FRANCE</textPath></text>
+              <text class="emblem__arc" fill="currentColor" text-anchor="middle"><textPath href="#emblemArc" startOffset="33.333%">FRANCE</textPath></text>
+              <text class="emblem__arc" fill="currentColor" text-anchor="middle"><textPath href="#emblemArc" startOffset="66.666%">FRANCE</textPath></text>
+              <g class="emblem__flag" transform="rotate(60 110 110)"><use href="#flagMark"/></g>
+              <g class="emblem__flag" transform="rotate(180 110 110)"><use href="#flagMark"/></g>
+              <g class="emblem__flag" transform="rotate(300 110 110)"><use href="#flagMark"/></g>
             </g>
             <text x="110" y="156" text-anchor="middle" class="emblem__f">F</text>
           </svg>
@@ -146,7 +154,7 @@
         <div class="sobre__text reveal">
           <p class="eyebrow">A Boutique</p>
           <h2>Um pedacinho da França no coração da Asa Sul</h2>
-          <p>Na <strong>Boutique France</strong>, cada peça é escolhida com o olhar voltado para a elegância francesa: tecidos naturais, cortes atemporais e aquele charme que combina com o dia a dia de Brasília. Aqui você encontra moda masculina e feminina, do <em>linho</em> ao <em>jeans</em>, do <em>tricot</em> ao esportivo.</p>
+          <p>Na <strong>Boutique France</strong>, cada peça é escolhida com o olhar voltado para a elegância francesa: tecidos naturais, cortes atemporais e aquele charme que combina com o dia a dia de Brasília. Aqui você encontra moda masculina e feminina, do <em>linho</em> ao <em>jeans</em>, do <em>tricot</em> ao <em>esportivo</em>.</p>
           <p>Mais do que roupas, oferecemos um atendimento que vira história, feito de perto por <strong>Silvana &amp; Carlos</strong> e uma equipe que conhece cada cliente pelo nome.</p>
           <ul class="sobre__highlights">
             <li><span>✦</span><div><strong>Curadoria francesa</strong><small>Coleções autorais e Pierre Cardin Paris</small></div></li>
