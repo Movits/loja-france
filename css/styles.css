@@ -436,6 +436,12 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 700; line-height: 1.1;
   .lookbook__grid { grid-template-columns: repeat(2, 1fr); }
   .avaliacoes__grid { grid-template-columns: 1fr; }
   .lookbook__item.is-wide { grid-column: span 2; }
+
+  /* Hero no mobile: evita sobreposição no rodapé */
+  .hero { padding-bottom: 40px; }
+  .hero__scroll { display: none; }
+  .wa-float { width: 50px; height: 50px; right: 14px; bottom: 14px; }
+  .wa-float svg { width: 28px; height: 28px; }
 }
 
 /* Acessibilidade: reduzir movimento */
