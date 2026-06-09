@@ -29,23 +29,22 @@ window.FRANCE = {
     { sub: "Édition Limitée",    nome: "100% Puro Linho",         desc: "Camisaria em fibras naturais, edição limitada.",  img: "linho-flatlay.png" },
     { sub: "Mont-Blanc · França",nome: "Chamonix",                desc: "Tricôs e malhas para o friozinho de Brasília.",   img: "tricot-feminino.png" },
     { sub: "Náutic Club",        nome: "Sportswear",              desc: "Casual e esportivo com pegada francesa.",          img: "look-bomber.jpg" },
-    { sub: "Denim premium",      nome: "Jeans France",            desc: "Modelagens que vestem bem de verdade.",            img: "jeans-pierre.png" },
+    { sub: "Denim premium",      nome: "Jeans France",            desc: "Modelagens que vestem bem de verdade.",            img: "jeans-rolos.jpg" },
     { sub: "Paris · ícone",      nome: "Pierre Cardin",           desc: "Clássicos atemporais. Revendedor autorizado.",     img: "polo-creme.png" }
   ],
 
   /* ---- Lookbook / galeria (size opcional: "wide") ---- */
   lookbook: [
+    { img: "fachada.png",           cap: "Nossa loja na 107 Sul" },
     { img: "look-bomber.jpg",       cap: "Look Sportswear France" },
-    { img: "linho-dupla.png",       cap: "Coleção Saint Rémy de Provence", size: "wide" },
+    { img: "linho-dupla.png",       cap: "Coleção Saint Rémy de Provence", pos: "center top" },
     { img: "vestido-vermelho.png",  cap: "Feminino · Use & Presenteie" },
-    { img: "polo-creme.png",        cap: "Polos France" },
+    { img: "polo-creme.png",        cap: "Polo em algodão" },
     { img: "look-listrada.jpg",     cap: "Camisaria France" },
     { img: "linho-flatlay.png",     cap: "Édition Limitée · 100% linho", size: "wide" },
     { img: "tricot-feminino.png",   cap: "Tricot · linha Chamonix" },
-    { img: "jeans-pierre.png",      cap: "Jeans France" },
-    { img: "detalhe-polos.jpg",     cap: "A assinatura France" },
-    { img: "jeans-rolos.jpg",       cap: "Denim premium" },
-    { img: "fachada.png",           cap: "Nossa loja na 107 Sul, à noite" }
+    { img: "jeans-pierre.png",      cap: "Jeans Pierre Cardin" },
+    { img: "detalhe-polos.jpg",     cap: "Polos France" }
   ],
 
   /* ---- Avaliações reais (Google) ---- */

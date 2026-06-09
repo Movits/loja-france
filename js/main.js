@@ -54,8 +54,9 @@
     if (!grid || !F.lookbook) return;
     grid.innerHTML = F.lookbook.map(function (item, i) {
       var cls = "lookbook__item reveal" + (item.size === "wide" ? " is-wide" : "");
+      var st = item.pos ? ' style="object-position:' + item.pos + '"' : '';
       return '<figure class="' + cls + '" data-lb="' + i + '" tabindex="0" role="button" aria-label="Ampliar: ' + (item.cap || "foto") + '">' +
-        '<img src="' + IMG + item.img + '" alt="' + (item.cap || "Look da Boutique France") + '" loading="lazy" />' +
+        '<img src="' + IMG + item.img + '" alt="' + (item.cap || "Look da Boutique France") + '" loading="lazy"' + st + ' />' +
         (item.cap ? '<figcaption>' + item.cap + '</figcaption>' : "") +
         '</figure>';
     }).join("");
